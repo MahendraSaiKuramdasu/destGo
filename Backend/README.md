@@ -24,11 +24,11 @@ The request body must be a JSON object with the following structure:
 }
 
 
-Workspace
+## Workspace
 
 Collecting workspace information
 
-Validation Rules
+## Validation Rules
 
 fullName.firstName: Must be a string with a minimum length of 3 characters.
 
@@ -38,9 +38,9 @@ email: Must be a valid email address and contain at least 5 characters.
 
 password: Must have a minimum of 6 characters.
 
-Response
+## Response
 
-Success (HTTP 200)
+## Success (HTTP 200)
 
 On successful registration, the response will include:
 
@@ -60,7 +60,7 @@ Example successful response:
   }
 }
 
-Validation Error (HTTP 400)
+## Validation Error (HTTP 400)
 
 If validation fails (e.g., invalid email, short first name, or short password), the response will include an array of error messages.
 
