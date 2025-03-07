@@ -25,7 +25,7 @@ The request body must be a JSON object with the following structure:
 
 
 Workspace
-(rerun without)
+
 Collecting workspace information
 
 Validation Rules
